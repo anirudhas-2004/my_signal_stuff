@@ -82,11 +82,17 @@
 
     .badge.link { background: #e0d8f0; color: #443377; }
 
-    footer {
+    .quote {
       margin-top: 48px;
-      font-size: 0.7rem;
-      color: #999;
+      font-size: 0.78rem;
+      color: transparent;
+      font-style: italic;
+      transition: color 0.4s;
+      cursor: default;
+      user-select: none;
     }
+
+    .quote:hover { color: #999; }
   </style>
 </head>
 <body>
@@ -125,6 +131,8 @@
   </div>
 
 
+
+  <p class="quote">"For the things we have to learn before we can do them, we learn by doing them." ― Aristotle</p>
 
 </body>
 </html>
